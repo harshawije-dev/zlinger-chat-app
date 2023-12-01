@@ -22,10 +22,14 @@
     <div>
         <form>
             <div class="box-hr fixed-b">
-                <input type="text" placeholder="Message">
+                <input type="text" placeholder="Message" autocapitalize="off">
                 <button type="button">Send</button>
             </div>
         </form>
     </div>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script>
+        var initSocket = socket();
+    </script>
 </body>
 </html>
