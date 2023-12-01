@@ -1,0 +1,28 @@
+{
+  "name": "zlinger-chat-app",
+  "version": "1.0.0",
+  "description": "Basic Chat app to test shocket.io",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshawije-dev/zlinger-chat-app.git"
+  },
+  "keywords": [
+    "typescript",
+    "chat",
+    "shocket.io"
+  ],
+  "author": "harshawije-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshawije-dev/zlinger-chat-app/issues"
+  },
+  "homepage": "https://github.com/harshawije-dev/zlinger-chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
